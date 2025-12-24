@@ -23,11 +23,11 @@ AWS_PROFILE = None
 # Bedrock Model Configuration
 # ============================================================================
 # Claude Sonnet 4 via Global CRIS (Cross-Region Inference Server)
-# Model ID: global.anthropic.claude-sonnet-4-20250514-v1:0
+# Model ID: deepseek.r1-v1:0
 # - 200K context window
 # - Released: May 22, 2025
-#MODEL_ID = "global.anthropic.claude-sonnet-4-20250514-v1:0"
-MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
+#MODEL_ID = "deepseek.r1-v1:0"
+MODEL_ID = "deepseek.r1-v1:0"
 # ============================================================================
 # Workshop Configuration
 # ============================================================================

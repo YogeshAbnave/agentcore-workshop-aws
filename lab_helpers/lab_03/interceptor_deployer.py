@@ -87,7 +87,7 @@ def deploy_interceptor(region: str, prefix: str, gateway_arn: str = None) -> str
         StatementId='AllowGatewayInvoke',
         Action='lambda:InvokeFunction',
         Principal='bedrock-agentcore.amazonaws.com',
-        SourceArn=f'arn:aws:bedrock-agentcore:us-east-1:{boto3.client("sts").get_caller_identity()["Account"]}:gateway/*'
+        SourceArn=f'arn:aws:bedrock-agentcore:us-west-2:{boto3.client("sts").get_caller_identity()["Account"]}:gateway/*'
     )
     print(f"✅ Lambda permission added for all gateways in account")
     

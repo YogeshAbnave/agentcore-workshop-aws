@@ -371,7 +371,7 @@ def setup_s3_bucket(bucket_name: str, region_name: Optional[str] = None) -> Dict
             print(f"✓ Creating S3 bucket: {bucket_name}")
 
             try:
-                if region_name == "us-east-1":
+                if region_name == "us-west-2":
                     s3.create_bucket(Bucket=bucket_name)
                 else:
                     s3.create_bucket(

@@ -21,7 +21,7 @@ import time
 from typing import Optional
 from lab_helpers.constants import PARAMETER_PATHS
 
-def cleanup_lab_03b(region_name: str = "us-east-1", verbose: bool = True) -> None:
+def cleanup_lab_03b(region_name: str = "us-west-2", verbose: bool = True) -> None:
     """
     Clean up Lab 3B resources (JWT Gateway and Lambda Interceptor).
     

@@ -56,7 +56,7 @@ if not logger.handlers:
 
 # Environment variables (set by AgentCore Runtime)
 AWS_REGION = os.environ.get('AWS_REGION', 'us-west-2')
-MODEL_ID = os.environ.get('MODEL_ID', 'us.anthropic.claude-sonnet-4-20250514-v1:0')
+MODEL_ID = os.environ.get('MODEL_ID', 'deepseek.r1-v1:0')
 
 # Log environment diagnostics
 logger.info("=" * 80)

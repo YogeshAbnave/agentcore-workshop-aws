@@ -47,7 +47,7 @@ class ShortTermMemoryHook(HookProvider):
         >>> memory_hook = ShortTermMemoryHook(memory_client, memory_id="xyz-123")
         >>> agent = Agent(
         ...     hooks=[memory_hook],
-        ...     model="global.anthropic.claude-sonnet-4-20250514-v1:0",
+        ...     model="deepseek.r1-v1:0",
         ...     state={"actor_id": "user-123", "session_id": "session-456"}
         ... )
     """

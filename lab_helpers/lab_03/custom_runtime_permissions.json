@@ -76,8 +76,8 @@
       "Resource": [
         "arn:aws:bedrock:{{REGION}}::foundation-model/*",
         "arn:aws:bedrock:{{REGION}}:{{ACCOUNT_ID}}:inference-profile/*",
-        "arn:aws:bedrock:us-east-1::foundation-model/*",
-        "arn:aws:bedrock:us-east-1:{{ACCOUNT_ID}}:inference-profile/*",
+        "arn:aws:bedrock:us-west-2::foundation-model/*",
+        "arn:aws:bedrock:us-west-2:{{ACCOUNT_ID}}:inference-profile/*",
         "arn:aws:bedrock:us-east-2::foundation-model/*",
         "arn:aws:bedrock:us-east-2:{{ACCOUNT_ID}}:inference-profile/*"
       ]

@@ -116,7 +116,7 @@ def create_supervisor_runtime_iam_role(
                 "Resource": [
                     "arn:aws:bedrock:*::foundation-model/*",  # Cross-region model IDs (e.g., us.anthropic.claude-*)
                     f"arn:aws:bedrock:{region}:{account_id}:inference-profile/*",
-                    f"arn:aws:bedrock:us-east-1:{account_id}:inference-profile/*",
+                    f"arn:aws:bedrock:us-west-2:{account_id}:inference-profile/*",
                     f"arn:aws:bedrock:us-east-2:{account_id}:inference-profile/*",
                     f"arn:aws:bedrock:us-west-2:{account_id}:inference-profile/*"
                 ]

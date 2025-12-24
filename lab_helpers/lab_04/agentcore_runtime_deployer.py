@@ -227,8 +227,8 @@ class AgentCoreRuntimeDeployer:
                     "Resource": [
                         f"arn:aws:bedrock:{self.region}::foundation-model/*",
                         f"arn:aws:bedrock:{self.region}:{self.account_id}:inference-profile/*",
-                        "arn:aws:bedrock:us-east-1::foundation-model/*",
-                        f"arn:aws:bedrock:us-east-1:{self.account_id}:inference-profile/*",
+                        "arn:aws:bedrock:us-west-2::foundation-model/*",
+                        f"arn:aws:bedrock:us-west-2:{self.account_id}:inference-profile/*",
                         "arn:aws:bedrock:us-east-2::foundation-model/*",
                         f"arn:aws:bedrock:us-east-2:{self.account_id}:inference-profile/*",
                         "arn:aws:bedrock:us-west-2::foundation-model/*",
